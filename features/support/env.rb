@@ -8,3 +8,4 @@ Capybara.configure do |config|
     config.app_host = CONFIG['https://qacoders-dev-br.umbler.net']
     config.default_max_wait_time = 10
 end
+
