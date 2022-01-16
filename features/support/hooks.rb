@@ -1,5 +1,5 @@
 Before do |scenario|
-  Capybara.current_session.drive.browser.manage.delete_all_cookies
+  Capybara.current_session.driver.browser.manage.delete_all_cookies
   page.driver.quit
 end
 
