@@ -1,0 +1,8 @@
+default: --publish-quiet -p pretty -p html -p homolog
+
+pretty: --format pretty
+
+homolog: ENVIRONMENT=homolog
+production: ENVIRONMENT=production
+
+html: --format html --out=report/report.html
